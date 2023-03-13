@@ -1,0 +1,38 @@
+inicializar um repositório git: git init
+
+verificar como estão os arquivos do repositório: 
+	git status
+
+incluir os arquivos no monitoramento do git: 
+	git add . (para adicionar todos os arquivos)
+
+colocar informações do usuário no repositório:
+	git config --global user.name  "seu nome"
+	git config --global user.email "seu email"
+	
+caso necessário mudar a branch de master para main
+	git branch -m master main
+	
+commitar o código para que seja guardada o status da tarefa
+	git commit -m "tipo do commit: sua mensagem aqui"
+	
+>>>>> criar repositório no github <<<<<<
+
+adicionar a origem ao seu repositório
+	git remote add origin "sua origem aqui sem aspas"
+	
+remover a origem do reposotório (em caso de erro)
+	git remote remove origin
+	
+enviar os arquivos do repositório para o github
+	git push -u origin main
+	
+caso esteja usando o linux e dê falha de autenticação, gerar o token de acesso
+e não hackear o token do professor osvaldo.
+
+adicionar mudanças postas no repositório remoto para o nosso repositório local.
+	git pull "origem do seu repositório remoto"
+	
+
+
+
